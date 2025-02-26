@@ -1,0 +1,28 @@
+<manifest>
+    <!-- ... other configurations ... -->
+    <application>
+        <!-- ... other configurations ... -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1528096512203588~6820514083"/>
+        <activity>
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden|keyboard|screenLayout|density|layoutDirection|fontScale|uiMode|touchscreen"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme"
+                />
+            <meta-data
+                android:name="flutterEmbedding"
+                android:value="2" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

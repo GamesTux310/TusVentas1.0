@@ -1,0 +1,13 @@
+android {
+    namespace "com.example.tusventas"
+    compileSdkVersion flutter.compileSdkVersion
+    ndkVersion "25.1.8937393"  // Add this line here
+
+    // ... rest of android configuration ...
+    defaultConfig {
+        ...
+        minSdkVersion 21 // You can set this to the minimum SDK version you need
+        ...
+    }
+    ...
+}
